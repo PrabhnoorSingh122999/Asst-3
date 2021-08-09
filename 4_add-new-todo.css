@@ -1,0 +1,246 @@
+body{
+    position: relative;
+    background-color: rgb(212, 108, 108);
+    margin: 1px;
+}
+
+.main-container{
+    filter: blur(6px);
+    /* z-index: 0; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        background-color: white;
+        
+        margin: 25px auto ;
+    }
+}
+
+.parent
+{
+    width: 230px;
+    height: 361px;
+    border: 2px solid rgb(11, 7, 51);
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+
+
+.section-1
+{
+    width: 88%;
+    height: 12%;
+    border: 2px solid white;
+  
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    /* justify-content: ; */
+    text-align: center;
+}
+
+#arrow-circle-left{
+    margin-left: 1px;
+    margin-top: 22px;
+    font-size: 2em;
+    margin-right: 4px;
+    color: #ca4444;
+}
+
+
+.paris {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 17px;
+    /* margin-left: -64px; */
+    margin-right: -25px;
+}
+
+.section-2
+{
+    width: 65%;
+    height: 15%;
+    border: 2px solid rgb(11, 7, 51);
+    border: 2px solid #ffffff;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.section-3 {
+    height: 106%;
+    width: 103%;
+    margin-top: 8%;
+    margin-left: -3%;
+    /* border: 0.5px solid purple; */
+}
+
+#back {
+    margin-left: 4px;
+    margin-top: 10px;
+    color: gray;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* .section-3{
+    position: relative;
+} */
+.price-card {
+    margin: 10px;
+    position: relative;
+    width: 83%;
+    height: 83%;
+    border: 1px solid #ff3131;
+    box-shadow: 3px 3px 9px grey;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.h4 {
+    color: red;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 0px;
+    margin-top: 22px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+
+.edited-line /* hr */ 
+{
+    width: 144px;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 0%;
+    margin-top: -2px;
+    background-color: rgba(128, 128, 128, 0.712);
+    border-width: 0.5px;
+    margin-bottom : 22px; 
+    /* margin-left: 1px; */
+}
+
+.Compl-task {
+    color: #d64141;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* .p-task{
+    color: red;
+    font-size: 14px;
+} */
+
+.Checkbox{
+    margin-left: -32px;
+    margin-top: 14px;
+    padding-left: 0px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 6px;
+    padding-left: 0px;
+
+}
+
+#checkBtask{
+    margin-top: 5px;
+    margin-right: 2px;
+}
+.Ptask {
+    margin-left: 2px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+
+/* .plus-circle-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
+
+.plus-circle-icon {
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    color: #ea4444;
+    font-size: 2em; 
+}
+
+/* all the above stuff, blur ; now the new card  */
+
+
+.new-card {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 78%;
+    height: 29%;
+    border: 1px solid #ff3131;
+    box-shadow: 3px 3px 9px grey;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 11%;
+    margin-top: -79%;
+}
+
+
+#new-h3 {
+    color: #ff3131;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 13px;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+/* padding-top: 0px;
+margin-top: 13px;
+padding-right: 17px; */
+
+.type-text
+{
+    border: 1px solid #ff3131;
+    margin: -3px auto;
+    width: 206px;
+    height: 27px;
+    border-radius: 6px;
+}
+
+.add-button {
+    width: 62px;
+    height: 25px;
+    background-color: #ff3131;
+    border-radius: 10px;
+    color: #ffffff;
+    
+    margin: 14px auto;
+}
+
+#add
+{
+    font-size: medium;
+    text-align: center;
+    margin-top: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}

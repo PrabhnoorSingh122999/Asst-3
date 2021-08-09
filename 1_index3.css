@@ -1,0 +1,147 @@
+/* responsive 340 x 535  */
+
+body{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        background-color: white;
+        
+        margin: 25px auto ;
+    }
+}
+
+.main-container{
+    width:600px;
+    height:270px;
+    /* border: 2px solid grey; */
+    border: 2px solid white;
+    padding: 20px ;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    padding-left: 5%;
+    padding: 0px;
+    margin: 0px;
+}    
+
+
+
+.sub-container{
+    width: 600px;
+    height: 80%;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main-container{
+        width: 87% ;
+        height: 74px;
+        
+        /* border: 1px solid black ; */
+        margin: 12px auto;
+        padding: 0px;
+       
+    }
+    .sub-container{
+        width: 261px;
+        display: flex;
+    }
+}
+#tasks{
+    /* text-align: left;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; */
+    text-align: left;
+        font-size: 43px;
+        font-weight: 500;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480 px){
+    #tasks{
+        text-align: left;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        color: black
+    }
+}
+
+#lists {
+    text-align: left;
+    font-size: 48px;
+    margin-top: 3px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Tajawal', sans-serif;
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480 px){
+    #lists{
+        text-align: left;
+        font-size: 36px;
+        font-weight: 400;
+        font-family: 'Tajawal', sans-serif;
+    }
+}
+.fa-color{
+    color: #ca4444;
+}
+.fa-2x{
+    font-size: 2em;
+}
+
+#icon{
+    margin-left: 59px;
+    margin-top: 22px;
+}
+
+
+
+.price-card {
+    width: 275px;
+    height: 67px;
+    border: 1px solid rgb(204, 153, 153);
+    box-shadow: 3px 3px 9px grey;
+    border-radius: 8px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+    text-align: left;
+    padding: 3% 3%;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+#price-card-5{
+    margin-bottom: 5px;
+}
+
+.price_card_container{
+        margin-top: 28px;
+        /* margin-bottom: 20px; */
+        justify-content: space-between;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480 px) {
+    .price-card{
+        width: 90%;
+        height: 10%;
+        margin-top: 20px;
+    }
+    /* .price_card_container{
+        
+        
+    } */
+}
+
